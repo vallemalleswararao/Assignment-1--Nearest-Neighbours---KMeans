@@ -1,0 +1,6 @@
+plt.figure(figsize=(8, 6))
+sns.histplot(df['Price'], kde=True)
+plt.title("Price Distribution")
+plt.xlabel("Price")
+plt.ylabel("Frequency")
+plt.show()
