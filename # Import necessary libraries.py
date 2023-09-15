@@ -5,7 +5,7 @@ import seaborn as sns
 
 # Load the dataset (replace 'your_dataset.csv' with the actual dataset file)
 # Assuming the dataset is in CSV format
-df = pd.read_csv('your_dataset.csv')
+df = pd.read_csv('"C:\Users\valle\Downloads\house_rental_data.csv.txt"')
 
 # Display basic information about the dataset
 print("Dataset Information:")
